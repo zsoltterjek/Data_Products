@@ -1,6 +1,5 @@
 library(shiny)
 library(ggplot2)
-library(ggstatsplot)
 
 mtcars$cyl <- as.factor(mtcars$cyl)
 mtcars$am <- as.factor(mtcars$am)
